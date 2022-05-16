@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\calc\\calc\\calc.csproj",
+      "projectUniqueName": "C:\\Users\\user\\source\\repos\\backend\\calc\\calc\\calc.csproj",
       "projectName": "calc",
-      "projectPath": "C:\\Users\\user\\source\\repos\\calc\\calc\\calc.csproj",
+      "projectPath": "C:\\Users\\user\\source\\repos\\backend\\calc\\calc\\calc.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\repos\\calc\\calc\\obj\\",
+      "outputPath": "C:\\Users\\user\\source\\repos\\backend\\calc\\calc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
