@@ -128,7 +128,7 @@ namespace ScrumBoardTest
             {
                 board.AddColumn(MockColumn());
             }
-            //board.AddColumn(MockColumn());
+
             ITask task = MockTask();
             board.AddTaskToColumn(task);
 
@@ -273,7 +273,7 @@ namespace ScrumBoardTest
             IColumn column = MockColumn();
             board.AddColumn(column);
             ITask task = MockTask();
-            //column.AddTask(task);
+
 
             Assert.Throws<TaskNotFound>(() => board.ChangeTaskName(column.Name, task.Name, "Updated"));
         }
@@ -300,7 +300,6 @@ namespace ScrumBoardTest
             IColumn column = MockColumn();
             board.AddColumn(column);
             ITask task = MockTask();
-            //column.AddTask(task);
 
             Assert.Throws<TaskNotFound>(() => board.ChangeTaskDescription(column.Name, task.Name, "Updated"));
         }
@@ -327,7 +326,7 @@ namespace ScrumBoardTest
             IColumn column = MockColumn();
             board.AddColumn(column);
             ITask task = MockTask();
-            //column.AddTask(task);
+
 
             Assert.Throws<TaskNotFound>(() => board.ChangeTaskPriority(column.Name, task.Name, TaskPriority.NONE));
         }
